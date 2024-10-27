@@ -3,7 +3,7 @@ Passwort auf dem Server ändern
 
 Rechtsklick auf das Windowssymbol dann auf Computerverwaltung klicken
 
-![image](https://github.com/user-attachments/assets/eac6ed9d-9fbb-4eaa-9dee-27c959b99690)
+![Screenshot 2024-10-26 172944](https://github.com/user-attachments/assets/49b8d16f-be6b-4b2f-9bf6-dacba83c014d)
 
 In der Computerverwaltung angekommen drücken wir dann auf **„Lokale Benutzer und Gruppen“** und dann auf **„Benutzer“**
 
