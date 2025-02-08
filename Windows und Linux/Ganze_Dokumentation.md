@@ -393,16 +393,16 @@ Wichtig ist hier das wir beim Protocol die Portnummer immer in das Feld **„Des
 
 HTTPS-Port ändern
 ===
+Gibt diesen command in ipfire ein
 
+***„iptables -t nat -A PREROUTING -i green0 -p tcp --dport 44443 -j REDIRECT --to-port 444“***
 
-Ich habe versucht den https Port zu ändern und habe es leider nicht geschafft jedoch könnt ihr diesen Screenshot bei der Prüfung einfügen.
-Zuerst geht ihr auf den IP-Fire Terminal und schreibt **„nano /etc/httpd/conf/listen.conf“** 
+![image](https://github.com/user-attachments/assets/563336d5-d71f-4092-a558-609e97ce733a)
 
-![image](https://github.com/user-attachments/assets/9f835868-7bff-449d-9c4c-380e82b36d12)
+Danach bitte nicht neustarten und einfach den port 44443 benutzen und es sollte alles funktionieren
 
-Hier könnt ihr dann den Port ändern und den Server neustarten (Hoffentlich funktioniert es bei euch)
+![image](https://github.com/user-attachments/assets/e8b9b88b-1379-4bdc-a7ce-31f4a33895b8)
 
-![image](https://github.com/user-attachments/assets/b9a73ad4-d101-4157-9f52-fd106f272245)
 
 Spiele (Gambling)  Websites blocken
 ===
