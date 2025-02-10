@@ -1,6 +1,6 @@
 HTTPS-Port ändern
 ===
-Gibt diesen command in ipfire ein
+Gib diesen command in ipfire ein
 
 ***„iptables -t nat -A PREROUTING -i green0 -p tcp --dport 44443 -j REDIRECT --to-port 444“***
 
